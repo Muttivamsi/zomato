@@ -1,0 +1,56 @@
+body
+{
+background-color:black;
+}
+#navbar
+{
+background:url('11.jpg') no-repeat fixed;
+      width:1280px;
+      height:440px;
+}
+#navbar	ul{
+	left:0;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#navbar ul li{
+	display:inline-block;	
+	border-right:1px solid white;
+	font-size:19;
+}
+#navbar ul li a{
+	display:block;
+	color:white;
+	padding: 8px 16px;
+	text-decoration:none;
+}
+
+#navbar ul li:hover{	
+	background-color:;
+}
+
+#navbar ul ul{
+	display:none;
+	background-image:"1.png";
+}
+
+#navbar ul li:hover ul{
+	display:block;
+	margin-left:340px;
+	min-width:200px;
+	position:absolute;
+}
+#navbar ul ul li{
+	display:block;
+	border:none;
+}
+
+#navbar ul ul li a{
+	color:red;
+}
+
+#navbar ul ul li a:hover{
+	background-color:rgba(179,209,225,0.9);
+}
